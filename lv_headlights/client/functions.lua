@@ -102,12 +102,12 @@ function ColourList()
             if data.current.value == '10' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SSetVehicleXenonLightsColour(veh, 10)
+            SetVehicleXenonLightsColour(veh, 10)
             end
             if data.current.value == '11' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SSetVehicleXenonLightsColour(veh, 11)
+            SetVehicleXenonLightsColour(veh, 11)
             end
             if data.current.value == '12' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
